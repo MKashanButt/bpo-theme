@@ -48,7 +48,7 @@ const Services = () => {
                 </div>
                 <div className={styles.card}>
                     <img src="https://placehold.co/100x100" alt="" />
-                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempore sequi eligendi? Quas, inventore. Magni earum voluptas praesentium eius commodi provident, ducimus nam cumque, et nemo maxime eum accusamus amet!</p>
                     <button>Learn More
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className={styles.icon}>
@@ -58,7 +58,7 @@ const Services = () => {
                 </div>
                 <div className={styles.card}>
                     <img src="https://placehold.co/100x100" alt="" />
-                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempore sequi eligendi? Quas, inventore. Magni earum voluptas praesentium eius commodi provident, ducimus nam cumque, et nemo maxime eum accusamus amet!</p>
                     <button>Learn More
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className={styles.icon}>
