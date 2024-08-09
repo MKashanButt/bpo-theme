@@ -1,0 +1,98 @@
+.footer {
+    padding: 100px 50px;
+    margin-top: 150px;
+}
+
+.footer .container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer .company {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.footer .company img {
+    width: 20%;
+}
+
+.footer .company .socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .company .socials .icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.footer .quickLinks,
+.footer .support,
+.footer .getInTouch {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.footer .quickLinks {
+    width: 20%;
+}
+
+.footer .support {
+    width: 15%;
+}
+
+.footer .getInTouch {
+    width: 25%;
+}
+
+.footer .support h3,
+.footer .getInTouch h3,
+.footer .quickLinks h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.footer .support .icon,
+.footer .getInTouch .icon,
+.footer .quickLinks .icon {
+    width: 20px;
+}
+
+.footer .support ul,
+.footer .getInTouch ul,
+.footer .quickLinks ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .support ul li,
+.footer .quickLinks ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer .getInTouch ul li {
+    display: flex;
+    gap: 10px;
+    justify-content: baseline;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
