@@ -1,4 +1,4 @@
-import styles from '../../../assets/css/Home.module.css'
+import styles from './ClientReviews.module.css'
 
 const ClientReviews = () => {
     return (

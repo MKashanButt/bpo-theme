@@ -1,9 +1,9 @@
-import AboutUs from "./components/About-Us"
-import Brands from "./components/Brands"
-import ClientReviews from "./components/ClientReviews"
 import Hero from "./components/Hero"
-import Packages from "./components/Packages"
+import Brands from "./components/Brands"
+import AboutUs from "./components/About-Us"
 import Services from "./components/Services"
+import Packages from "../../components/Packages/Packages"
+import ClientReviews from "../../components/ClientReviews/ClientReviews"
 
 const Home = () => {
     return (

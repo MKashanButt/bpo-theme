@@ -1,0 +1,140 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .content {
+    width: 80%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    background-color: white;
+}
+
+.hero .content span {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero .content h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero .content p {
+    line-height: 20px;
+}
+
+.hero .content button {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.services {
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+    margin: 100px 0;
+}
+
+.services .header {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: center;
+}
+
+.services .header h2 {
+    width: 50%;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.services .header p {
+    width: 50%;
+    padding: 5px 10px;
+}
+
+.services .stage {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    gap: 30px;
+}
+
+.services .stage .item {
+    width: calc(100% * (1/4));
+    background-color: white;
+    padding: 2%;
+    border: 1px solid var(--black);
+    box-shadow: 8px 8px 0 0 var(--black);
+    transition: all 0.2s ease;
+}
+
+.services .stage .item:hover {
+    box-shadow: 12px 12px 0 0 var(--black);
+}
+
+.services .stage .item h3 {
+    font-size: 30px;
+}
+
+.services .stage .item button {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    margin: 10px 0;
+}
+
+.services .stage .item button .icon {
+    width: 40px;
+}
+
+.services .controls {
+    width: 7%;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 60px;
+    justify-self: flex-end;
+}
+
+.services .controls button {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border: 1px solid black;
+}
+
+.services .controls button .controlIcon {
+    width: 20px;
+}
+
+.whyChooseUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    padding: 10% 5%;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.whyChooseUs h2 {
+    font-size: 50px;
+}
+
+.whyChooseUs button {
+    margin: 20px;
+}

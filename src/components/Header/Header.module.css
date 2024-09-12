@@ -36,3 +36,15 @@
     gap: 20px;
     align-items: center;
 }
+
+.header nav ul li {
+    border-bottom: 2px solid var(--grey);
+}
+
+.header nav ul li:hover {
+    border-bottom: 2px solid var(--black);
+}
+
+.header nav ul li a:visited {
+    border-bottom: 2px solid var(--black);
+}

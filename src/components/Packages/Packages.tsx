@@ -1,4 +1,4 @@
-import styles from '../../../assets/css/Home.module.css'
+import styles from './Packages.module.css'
 
 const Packages = () => {
     return (
